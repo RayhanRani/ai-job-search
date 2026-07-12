@@ -1,10 +1,7 @@
-# Job Application Assistant for [YOUR_NAME]
-
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
+# Job Application Assistant for Rayhan Rani
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Rayhan Rani, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -16,65 +13,71 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 <!-- This section is auto-populated by /setup. You can also fill it in manually. -->
 
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
-- **Languages:** [YOUR_LANGUAGES]
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Name:** Rayhan Rani
+- **Location:** Fremont, California, USA (flexible - open to relocating to Bay Area, New York, Chicago, Seattle, or Austin)
+- **Languages:** English
+- **Status:** Undergraduate student, Santa Clara University (Class of 2027); currently interning
+- **LinkedIn:** https://www.linkedin.com/in/rayhan-rani
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **BS in Computer Science and Engineering, Minor in Mathematics** (2023-2027, in progress) - Santa Clara University
+  - Topics: Data Structures and Algorithms, OOP, Discrete Mathematics, Embedded Systems, Linear Algebra, Probability and Statistics, Differential Equations, Calculus I-IV, Physics I-III
+  - Current research: synthetic data generation (Prof. Yuhong Liu), sustainable computing (Prof. Brian Thomas)
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Software Engineer Intern** (June 2026 - August 2026) - **Dimensional Fund Advisors** (Austin, TX)
+  - Resolved 2,500+ data mismatches and built dashboards to monitor quality and warehouse performance
+  - Prototyped a workflow to automate data ingestion, transformation, and delivery at a firm with $1T+ AUM
+- **Founder and CEO** (June 2023 - December 2025) - **FreshFrosh LLC** (Fremont, CA)
+  - Created a gamified recruitment platform using AI agents and challenges to match students with startups
+  - Onboarded 28 startups and over 400 students through career fairs and pitch competitions
+- **Software Engineer Intern** (July 2025 - September 2025) - **Amotions AI** (Burlingame, CA)
+  - Designed 145+ prompt variations for LLM-based coaching interactions, improving response consistency
+  - Built a recommendation system personalizing training for 30+ pilot customers
+- **Information Technology Intern** (June 2024 - September 2024) - **DPlace AI** (San Jose, CA)
+  - Reviewed pitch decks with the CEO, contributing to six-figure investments secured
+  - Fixed software issues for 14 team members, saving 56 hours/week and boosting productivity by 27%
+- **Data Science Intern** (June 2023 - August 2023) - **Charlee AI** (Pleasanton, CA)
+  - Analyzed and categorized insurance claims data; built software to track claim expiration by state statute
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** Python, SQL, Java, C++, C
+- **Secondary:** JavaScript, HTML, CSS, PHP, React.js, Vue.js, Node.js, Pandas, NumPy, Scikit-learn
+- **Domain:** Data engineering/pipelines, applied AI/ML (LLM prompt engineering, recommendation systems), data quality monitoring
+- **Software:** AWS, Firebase, Snowflake, Airflow, dbt, GitHub, Android Studio, Figma, Jira, Slack, Claude, Cursor
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+- **Intermediate Technical Interview Prep** - CodePath - completed August 2025
 
 ### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+<!-- None yet -->
 
 ### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+- 3rd Place, Manic Monday - Roblox Hackathon (2024)
+- Honorable Mention, ROADROVER - INRIX Hackathon (2023)
+- 2nd in NorCal, 8th in CA - DECA Finance Operations Research (2023)
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+- **Ownership-driven** - Prefers owning projects end-to-end over narrow scope
+- **Fast-paced/high-stakes** - Energized by high-stakes, high-growth environments
+- **Strengths:** Founder/builder mindset, comfortable working independently or collaboratively, strong applied technical execution
+- **Growth areas:** Still building deep domain specialization (early-career, undergraduate)
+- **Thrives in:** Fast-paced environments close to the product, with genuine mentorship, good work-life balance, and job security
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Technical depth combined with ownership of a project end-to-end
+- Working close to the product side, not purely backend/infra disconnected from users
+- Mentorship and long-term growth in a stable environment
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- Financial Technology: Dimensional Fund Advisors, Stripe, quantitative trading firms
+- Big Technology: Meta, Apple, Netflix, Google, other FAANG
+- AI/ML Startups: OpenAI, Databricks, and other high-growth AI companies
 
 ### Deal-breakers
-<!-- Hard constraints on job search -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- Unpaid or undervalued compensation
+- Slowing-down or declining industries
+- Companies with recent massive layoffs
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)
