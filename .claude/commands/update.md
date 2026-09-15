@@ -8,7 +8,7 @@ Read `.claude/skills/job-application-assistant/01-candidate-profile.md` for the 
 
 - **Technologies:** React.js, Vue.js, Node.js, Pandas, NumPy, Jupyter, Scikit-learn, GitHub, Android Studio, AWS, Firebase, Figma, Jira, Slack, Snowflake, Airflow, dbt, Claude, Cursor
 
-Languages (C, C++, Python, Java, HTML, CSS, JavaScript, PHP, SQL) are **never touched** - leave them exactly as-is in the After version, no additions, no reordering.
+Languages (C, C++, Python, SQL, Go, JavaScript, TypeScript, Java, HTML/CSS) are **never touched** - leave them exactly as-is in the After version, no additions, no reordering.
 
 ## Steps
 
@@ -48,13 +48,13 @@ Bumped to make room (least relevant to this posting, removed to keep the line's 
 
 BEFORE (current):
 Technical Proficiency August 2017-Present
-• Languages: working proficiency in C, C++, Python, Java, HTML, CSS, JavaScript, PHP, SQL
+• Languages: working proficiency in C, C++, Python, SQL, Go, JavaScript, TypeScript, Java, HTML/CSS
 • Technologies: working experience with React.js, Vue.js, Node.js, Pandas, NumPy, Jupyter, Scikit-learn,
 GitHub, Android Studio, AWS, Firebase, Figma, Jira, Slack, Snowflake, Airflow, dbt, Claude, Cursor
 
 AFTER (Languages unchanged, new skills appended to Technologies):
 Technical Proficiency August 2017-Present
-• Languages: working proficiency in C, C++, Python, Java, HTML, CSS, JavaScript, PHP, SQL
+• Languages: working proficiency in C, C++, Python, SQL, Go, JavaScript, TypeScript, Java, HTML/CSS
 • Technologies: working experience with React.js, Vue.js, Node.js, Pandas, NumPy, Jupyter, Scikit-learn,
 GitHub, Android Studio, AWS, Firebase, Figma, Jira, Slack, Snowflake, Airflow, dbt, Claude, Cursor, <new additions>
 ```

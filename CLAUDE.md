@@ -26,7 +26,7 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ### Professional Experience
 - **Software Engineer Intern** (June 2026 - August 2026) - **Dimensional Fund Advisors** (Austin, TX)
-  - Resolved 2,500+ data mismatches and built dashboards to monitor quality and warehouse performance
+  - Resolved 44,900+ data mismatches and built dashboards to monitor quality and warehouse performance
   - Prototyped a workflow to automate data ingestion, transformation, and delivery at a firm with $1T+ AUM
 - **Founder and CEO** (June 2023 - December 2025) - **FreshFrosh LLC** (Fremont, CA)
   - Created a gamified recruitment platform using AI agents and challenges to match students with startups
@@ -41,8 +41,8 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
   - Analyzed and categorized insurance claims data; built software to track claim expiration by state statute
 
 ### Technical Skills
-- **Primary:** Python, SQL, Java, C++, C
-- **Secondary:** JavaScript, HTML, CSS, PHP, React.js, Vue.js, Node.js, Pandas, NumPy, Scikit-learn
+- **Primary:** Python, SQL, Java, C++, C, Go
+- **Secondary:** JavaScript, TypeScript, HTML/CSS, React.js, Vue.js, Node.js, Pandas, NumPy, Scikit-learn
 - **Domain:** Data engineering/pipelines, applied AI/ML (LLM prompt engineering, recommendation systems), data quality monitoring
 - **Software:** AWS, Firebase, Snowflake, Airflow, dbt, GitHub, Android Studio, Figma, Jira, Slack, Claude, Cursor
 

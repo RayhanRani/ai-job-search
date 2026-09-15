@@ -27,7 +27,7 @@
 
 ### Software Engineer Intern - Dimensional Fund Advisors (June 2026 - August 2026)
 Austin, TX
-- Resolved 2,500+ data mismatches and built dashboards to monitor quality and warehouse performance
+- Resolved 44,900+ data mismatches and built dashboards to monitor quality and warehouse performance
 - Prototyped a workflow to automate data ingestion, transformation, and delivery at a firm with $1T+ AUM
 
 ### Founder and CEO - FreshFrosh LLC (June 2023 - December 2025)
@@ -59,8 +59,8 @@ Pleasanton, CA
 ## Technical Skills
 
 ### Programming & ML
-- **Python, Java, C++, C** (working proficiency): general-purpose and systems programming
-- **JavaScript, HTML, CSS, PHP, SQL**: web development and data querying
+- **Python, Java, C++, C, Go** (working proficiency): general-purpose and systems programming
+- **JavaScript, TypeScript, HTML/CSS, SQL**: web development and data querying
 - **Pandas, NumPy, Scikit-learn, Jupyter**: data analysis and ML tooling
 - **React.js, Vue.js, Node.js**: frontend/backend web frameworks
 

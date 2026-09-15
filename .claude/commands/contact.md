@@ -25,7 +25,13 @@ Collect up to 5 distinct, verified, currently-employed, US-based, target-role pe
 
 **If primary + secondary combined still fall short of 4**, open a third tier: confirmed SCU alumni, currently employed at the company, located anywhere on the **West Coast** (CA, OR, or WA - not just Bay Area). Role can still be outside the target list, same as the secondary tier. SCU verification and current employment stay non-negotiable in every tier - only the geography keeps widening. Label these clearly as third-tier/West-Coast fill, separate from the other two.
 
-**4 is the floor to aim for across all three tiers combined.** Only report fewer than 4 if West Coast candidates genuinely can't be found either - state plainly which searches came up empty at each tier.
+**4 is the floor to aim for across all three tiers combined.**
+
+**Absolute worst case: if all three tiers combined still turn up nobody**, open a fourth and final tier before reporting zero - confirmed SCU alumni, currently employed at the company, located **anywhere in the United States** (no geographic restriction at all, role still outside the target list is fine). Search `site:linkedin.com/in "Santa Clara University" "<company>"` once more and check every US location, not just West Coast. Verification (real SCU connection, current employment) still never gets relaxed - only geography does, all the way to "anywhere in the US." Label this clearly as fourth-tier/nationwide fill.
+
+**If the fourth tier is also exhausted (no SCU alum found anywhere, in any role, in any US location) - true absolute worst case:** open a fifth and final tier that drops the SCU requirement entirely. Find at least one person currently employed at the company who shares **any genuine connection to Rayhan's real background** from `01-candidate-profile.md` - not necessarily SCU, not necessarily a target role. Examples of a real connection: same field of study (Computer Science, Math), a shared technical interest (AI/ML, data engineering, fintech), similar project/hackathon experience, or overlapping tools/skills. Search `site:linkedin.com/in "<company>" <relevant term from Rayhan's background>` (e.g. swap in "Computer Science" or a skill) instead of the SCU-anchored searches used in every earlier tier. The connection must still be real and verifiable, not invented - just no longer required to be SCU. Label this clearly as fifth-tier/no-SCU fill, and state explicitly in the output which real fact links this person to Rayhan's profile.
+
+Only report zero total contacts if this fifth tier is also exhausted - state plainly that all five tiers were searched and came up empty.
 
 **Stay within LinkedIn's personal-use norms**: a handful of targeted lookups per company, not bulk collection. Don't retry aggressively against login walls.
 
