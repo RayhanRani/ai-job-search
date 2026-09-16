@@ -46,19 +46,34 @@ or team mentioned.
 
 ## Step 4: Draft the middle section
 
-**Target 90-120 words.** This is only the middle of the email - it gets
-placed between a fixed opening (name, school, a personal story) and a
-fixed closing ("Best, Rayhan") that you don't write. Every sentence should
-carry real information; don't pad.
+**Target 100-140 words across exactly two paragraphs, separated by a
+blank line.** This is only the middle of the email - it gets placed
+between a fixed opening (name, school, a personal story) and a fixed
+closing ("Best, Rayhan") that you don't write. Every sentence should carry
+real information; don't pad.
 
-Cover all of this, woven together naturally (not as a bulleted list):
+**Paragraph 1 - them, and the connection:**
 1. Something specific and genuine about **their** time at the target
    company or their path since - proof you actually read their background,
    not a form letter.
 2. One sentence connecting your own background: the one experience from
    Step 2, stated concretely (real numbers, real company name).
-3. State plainly and warmly that you'd really like to work at the target
-   company - direct honesty reads better than dancing around it.
+
+**Paragraph 2 - why this company, and the ask:**
+3. A genuine, **specific** reason you want to work at the target company -
+   never generic enthusiasm ("genuinely love," "dream company," "amazing
+   place to work," "incredible opportunity") without something real behind
+   it. Ground it in one of:
+   - a concrete, accurate detail of what the company actually builds or
+     the problem it works on, stated specifically enough that it couldn't
+     apply to just any company in the space - only if you're genuinely
+     confident it's correct, or
+   - the real overlap between the company's domain and the experience you
+     named in Step 2 - the specific kind of problem that experience and
+     this company both involve.
+   If you're not confident about a specific claim regarding the company
+   itself, use the second option rather than risk stating something
+   inaccurate - never fall back to vague praise instead.
 4. Ask if they'd be open to connecting in whatever way works best for them
    - a call, or just continuing over email - and if they know anyone there
    they'd be willing to introduce you to, that it would mean a lot. Genuine
@@ -75,10 +90,12 @@ Cover all of this, woven together naturally (not as a bulleted list):
 - No em-dashes. Use commas or periods.
 - No cliches: cut "passionate about," "would love to connect," "great to
   e-meet," "leverage my skills," "reaching out because," "I hope this email
-  finds you well," "hit the ground running."
+  finds you well," "hit the ground running," "genuinely love," "dream
+  company/job," "amazing company," "incredible opportunity."
 - Never fabricate anything about them that isn't visible in the provided
   profile text, and never alter the numbers or facts in the five
-  experiences from Step 2.
+  experiences from Step 2. Never state a "fact" about the target company
+  you're not genuinely confident is accurate.
 - Warm, direct, genuinely personal - contractions are fine.
 
 ## Step 5: Output
