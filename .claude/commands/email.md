@@ -1,88 +1,89 @@
-# /email - Draft a Cold Outreach Email From an Open Profile
+# /email - Cold Outreach Email to a Former Employee
 
-`$ARGUMENTS` is the text of a person's profile page that is already
-open/rendered (name, current role/company, background/experience,
-education, boards, investments) - not a company name, not a search. This
-command drafts one outreach email to this specific person and does not
-look anyone up; it works only from the profile text given.
+`$ARGUMENTS` is formatted exactly like this:
 
-This is for general networking, driven by genuine curiosity about someone's
-background and career path - not outreach tied to a specific job or
-application, and never a referral ask.
+```
+Target company: <company name>
+
+Profile:
+<the text of a former employee's profile page, already open/rendered>
+```
+
+This command drafts one outreach email to a **former employee of the
+target company** - someone who used to work there but has since moved on.
+It's built specifically for the "you used to work somewhere I really want
+to work, would you help me get in" ask, which only makes sense once
+someone has already left - it is not for current employees or executives.
+
+The subject line is generated separately by the calling tool, always
+"Interest in <target company>" - do not draft one, and do not print a
+Subject line in your output.
 
 ## Step 1: Your identity
 
 Read `.claude/skills/job-application-assistant/01-candidate-profile.md` for
-name, school, and major only. Do not draw experience bullets from that
-file.
+name, school, and major only.
 
-State the major as **Computer Science and Engineering** (or, if brevity
-calls for it, the compact form **CS+Engineering**) - never shorten it to
-just "Computer Science," since that drops the Engineering half of the
-actual degree.
+## Step 2: Your story
 
-## Step 2: Your experience (pick exactly one)
+This is the real personal voice for the email's opening - not your resume,
+your actual story:
+
+> Grew up watching Shark Tank and building Legos, which made me passionate
+> about problem solving. Working proficiency in Python, SQL, C, and
+> JavaScript. Founded a profitable startup and interned at a few companies
+> of varying sizes across technology, finance, insurance, and sales.
+> Strong management and communication skills.
+
+Draw on this for the opening 1-2 sentences of every email - genuine,
+personality-forward, not a resume recitation. Vary the specific angle and
+phrasing draft to draft (which detail you lead with, how you phrase it) so
+it doesn't read as a copy-pasted paragraph, but stay true to this actual
+story - never invent a different origin story or add traits not implied
+here.
+
+## Step 3: Your experience (pick exactly one)
 
 Read `.claude/skills/job-application-assistant/02-network-experience-menu.md`
 for the fixed list of five experiences. Choose whichever ONE best relates to
-something in their profile. Never mention more than one; never combine two.
+something in their profile or the target company's domain. Never mention
+more than one; never combine two.
 
-## Step 3: Read their profile and gauge seniority
+## Step 4: Confirm they're a former employee of the target company
 
-Parse the provided profile text for their name, current role/title and
-company, and their **past**: prior roles, career transitions, where they
-studied, notable projects, boards, investments, or how they got to where
-they are now.
+Parse their profile for confirmation they used to work at the target
+company (not currently there) - find the specific role and dates. If the
+profile doesn't clearly show this (e.g. they're actually still there, or
+the target company doesn't appear at all), say so plainly in the output
+instead of drafting a misleading email.
 
-Classify their seniority from the title text:
-
-- **Executive/Board tier**: Founder, CEO, President, C-level (CTO, COO,
-  CFO, CMO, etc.), Board Member, General Partner/Partner, General Counsel.
-- **Everyone else**: Director, VP, Manager, individual contributor, or a
-  former employee (regardless of the title they held there).
-
-This changes the email's approach in Step 5 - it does not change whether
-you write one (always do), and it never changes the no-ask rule.
-
-If the profile text doesn't show enough about their past to say something
-specific and real, say so plainly rather than inventing a detail.
-
-## Step 4: Pick the experience that overlaps
-
-From the five experiences in Step 2, pick the one that connects most
-specifically to something in their profile - same industry or domain,
-comparable technical work, a similar founder/leadership angle, overlapping
-tools, a shared board/investment area, etc. Name the overlap and which of
-the five you picked (briefly, to yourself) before drafting.
-
-If none of the five overlaps clearly, pick the one whose *type* of work
-(technical/data, founder, ML/AI) is closest to theirs rather than
-defaulting to the same one every time.
+Also note anything else genuine and specific about their time there or
+their path since - what they worked on, what they moved on to, any project
+or team mentioned.
 
 ## Step 5: Draft the email
 
-No character limit here (that constraint is LinkedIn's, not email's), but
-brevity still wins with busy people - **60-110 words in the body**, not
-counting the subject or sign-off. Longer is not more impressive; a senior
-person skims in the first two lines and decides whether to keep reading.
+**Target 130-170 words in the body** (a bit more room than a pure ask email
+since it opens with a real personal intro) - not counting the sign-off.
+Every sentence should still carry real information; don't pad.
 
-**Subject line:** specific to them, never generic. Never "Question,"
-"Reaching out," "Quick question," or their name alone. Reference the real
-overlap or a specific detail about their work.
-
-**Body, calibrated by the tier from Step 3:**
-
-- **Executive/Board tier**: Open with the most specific, informed detail
-  you have about their work (from their background/boards/investments) -
-  proof you did homework on *them*, not a form letter. State your
-  connection concretely (the one experience from Step 2, real numbers,
-  real company name) in one sentence, not a paragraph. Ask for a short,
-  specific amount of their time (e.g. 15 minutes) framed as wanting their
-  perspective - never a job or referral ask. Formal but not stiff.
-- **Everyone else**: Warmer and more conversational. Lead with the genuine
-  overlap between your background and theirs, ask one specific question
-  about their path or a detail from their background you're curious about.
-  Slightly more room to be casual, still concise.
+**Body, in this order, woven together naturally (not as a bulleted list):**
+1. Open with 1-2 sentences of genuine personal introduction drawn from
+   Step 2 - who you are, what got you into this, in your own voice.
+2. Pivot to something specific and genuine about **their** time at the
+   target company or their path since - proof you actually read their
+   background, not a form letter.
+3. One sentence connecting your own background: the one experience from
+   Step 3, stated concretely (real numbers, real company name).
+4. State plainly and warmly that you'd really like to work at the target
+   company - direct honesty reads better than dancing around it.
+5. Ask if they'd be open to connecting in whatever way works best for them
+   (a call, coffee, or just continuing over email), and if they know anyone
+   there they'd be willing to introduce you to, that it would mean a lot.
+   Genuine and low-pressure, not a demand.
+6. Mention you've attached your resume and dropped your GitHub below.
+7. Close with real warmth - looking forward to hearing back, not a generic
+   sign-off.
 
 **Rules:**
 - Sound like a specific real person wrote this about this specific person -
@@ -90,29 +91,35 @@ overlap or a specific detail about their work.
   identically for a different recipient with the details changed, rewrite
   it.
 - No em-dashes. Use commas or periods.
-- No cliches: cut "passionate about," "would love to connect," "great to
-  e-meet," "leverage my skills," "reaching out because," "I hope this email
-  finds you well."
-- No job or referral ask of any kind, at any tier - this is general
-  networking, not an application follow-up. The only ask is their time or
-  perspective.
+- No cliches: cut "passionate about" (except as it appears in Step 2's own
+  wording), "would love to connect," "great to e-meet," "leverage my
+  skills," "reaching out because," "I hope this email finds you well,"
+  "hit the ground running."
 - Never fabricate anything about them that isn't visible in the provided
   profile text, and never alter the numbers or facts in the five
-  experiences from Step 2.
-- Sign off with your full name (from Step 1) only - no title, no company,
-  no phone number, since you're not currently employed there.
+  experiences from Step 3 or the story in Step 2.
+- Warm, direct, genuinely personal - contractions are fine.
+- Sign off with your full name (from Step 1), then on separate lines:
+  "Resume attached" and your GitHub link from Step 6.
 
-## Step 6: Output
+## Step 6: Your GitHub
 
-Print which experience you picked and why, the seniority tier you assigned
-and why, then the subject and body. Nothing else - no file is written by
-this command.
+https://github.com/REPLACE_WITH_YOUR_USERNAME
+
+Use this exact URL in the sign-off. If it's still the placeholder above,
+print it in the output as-is rather than inventing a different one -
+that's a signal to update this file, not to guess.
+
+## Step 7: Output
+
+Print which experience you picked and why, then confirmation of the
+former-employee relationship you found (or, if you couldn't confirm one,
+say so instead of the line below), then the body only - no Subject line,
+that's handled separately.
 
 ```
 Experience used: <# and title> - because <the overlap>
-Tier: <Executive/Board or Everyone else> - because <the title signal>
-
-Subject: <subject line>
+Former employee confirmed: <role> at <target company>, <dates found>
 
 Body:
 <email body>
