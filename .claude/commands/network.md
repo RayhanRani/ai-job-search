@@ -15,6 +15,11 @@ Read `.claude/skills/job-application-assistant/01-candidate-profile.md` for
 name, school, and major only - the "who I am" line of the invite. Do not
 draw experience bullets from that file; use the fixed list below instead.
 
+State the major as **Computer Science and Engineering** (or, if the
+character budget is tight, the compact form **CS+Engineering**) - never
+shorten it to just "Computer Science," since that drops the Engineering
+half of the actual degree.
+
 ## Step 2: Your experience (pick exactly one)
 
 Choose whichever ONE of these five best relates to something in their
