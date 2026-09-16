@@ -13,7 +13,7 @@ application.
 
 Read `.claude/skills/job-application-assistant/01-candidate-profile.md` for
 name, school, and major only - the "who I am" line of the invite. Do not
-draw experience bullets from that file; use the fixed list below instead.
+draw experience bullets from that file.
 
 State the major as **Computer Science and Engineering** (or, if the
 character budget is tight, the compact form **CS+Engineering**) - never
@@ -22,30 +22,11 @@ half of the actual degree.
 
 ## Step 2: Your experience (pick exactly one)
 
-Choose whichever ONE of these five best relates to something in their
-profile - the clearest, most specific overlap, not necessarily the most
-impressive one. Never mention more than one; never combine two.
-
-1. **Software Engineer Intern, Dimensional Fund Advisors** (Austin, TX,
-   Jun-Aug 2026) - resolved 44,900+ data mismatches and built dashboards to
-   monitor data quality and warehouse performance; prototyped a workflow to
-   automate data ingestion, transformation, and delivery at a firm with
-   $1T+ AUM.
-2. **Founder and CEO, FreshFrosh LLC** (Fremont, CA, Jun 2023-Dec 2025) -
-   built a gamified recruitment platform using AI agents and challenges to
-   match students with startups; onboarded 28 startups and 400+ students
-   through career fairs and pitch competitions.
-3. **Software Engineer Intern, Amotions AI** (Burlingame, CA, Jul-Sep
-   2025) - designed 145+ prompt variations for LLM-based coaching
-   interactions, improving response consistency; built a recommendation
-   system personalizing training for 30+ pilot customers.
-4. **Information Technology Intern, DPlace AI** (San Jose, CA, Jun-Sep
-   2024) - reviewed pitch decks with the CEO and recommended key changes
-   that helped secure six-figure investments; fixed software issues for 14
-   team members, saving 56 hours/week and boosting productivity 27%.
-5. **Data Science Intern, Charlee AI** (Pleasanton, CA, Jun-Aug 2023) -
-   analyzed and categorized insurance claims data; built software to track
-   claim expiration dates by state-specific statute.
+Read `.claude/skills/job-application-assistant/02-network-experience-menu.md`
+for the fixed list of five experiences. Choose whichever ONE best relates to
+something in their profile - the clearest, most specific overlap, not
+necessarily the most impressive one. Never mention more than one; never
+combine two.
 
 ## Step 3: Read their profile
 
