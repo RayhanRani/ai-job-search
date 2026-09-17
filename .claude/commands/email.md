@@ -57,9 +57,12 @@ duplicate anything from them.
 
 Weave these three things together in roughly equal proportion - don't let
 any one of them dominate the paragraph or crowd the others out:
-1. Something specific and genuine about **their** time at the target
-   company or their path since - proof you actually read their background,
-   not a form letter.
+1. One specific, genuine detail about what **they themselves worked on or
+   built while at the target company** - not a recap of their career
+   since leaving. They already know their own career path; don't narrate
+   it back to them (no "you went from X to Y to Z"). Anchor on their time
+   at the target company specifically, one concrete detail, not a tour of
+   everywhere they've been.
 2. One sentence connecting your own background: the one experience from
    Step 2, stated concretely (real numbers, real company name).
 3. A genuine, specific reason you want to work at the target company -
@@ -77,7 +80,9 @@ any one of them dominate the paragraph or crowd the others out:
    itself, use the second option rather than risk stating something
    inaccurate - never fall back to vague praise instead.
 
-Target 90-130 words total.
+Target 60-90 words total - shorter than it might feel natural to write.
+Each of the three points above is one clause or one short sentence, not a
+paragraph of its own.
 
 **Rules:**
 - Sound like a specific real person wrote this about this specific person -
