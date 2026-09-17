@@ -37,14 +37,18 @@ more than one; never combine two.
 ## Step 3: Confirm they're a former employee of the target company
 
 Parse their profile for confirmation they used to work at the target
-company (not currently there) - find the specific role and dates. If the
-profile doesn't clearly show this (e.g. they're actually still there, or
-the target company doesn't appear at all), say so plainly in the output
-instead of drafting a misleading body paragraph.
+company (not currently there). Note the role and dates if the profile
+gives them, but a bare headline mention (e.g. "Ex-Plaid, Docker,
+Cloudflare") is enough to confirm former employment on its own, even
+without a role or dates - don't require more than that to proceed. Only
+say so plainly in the output and skip drafting if the profile doesn't
+show former employment at all (e.g. they're actually still there, or the
+target company never appears).
 
-Also note anything else genuine and specific about their time there or
-their path since - what they worked on, what they moved on to, any project
-or team mentioned.
+Also note anything else genuine and specific about their time there -
+what they worked on, any project or team mentioned - for Step 4. If
+nothing beyond the bare confirmation is available, that's fine; Step 4
+has a fallback for that case.
 
 ## Step 4: Draft the body paragraph
 
@@ -57,12 +61,18 @@ duplicate anything from them.
 
 Weave these three things together in roughly equal proportion - don't let
 any one of them dominate the paragraph or crowd the others out:
-1. One specific, genuine detail about what **they themselves worked on or
-   built while at the target company** - not a recap of their career
+1. One specific, genuine detail about them - not a recap of their career
    since leaving. They already know their own career path; don't narrate
-   it back to them (no "you went from X to Y to Z"). Anchor on their time
-   at the target company specifically, one concrete detail, not a tour of
-   everywhere they've been.
+   it back to them (no "you went from X to Y to Z", no tour of everywhere
+   they've been). Prefer, in order:
+   - a concrete detail about what they worked on or built while at the
+     target company specifically, if the profile shows one (a role, a
+     project, a team), or
+   - if the profile only confirms they used to work there without
+     describing what they did (e.g. just a headline like "Ex-Plaid,
+     Docker, Cloudflare"), their current professional focus or area of
+     expertise instead - stated as what they do, not as a sequence of
+     where they've done it.
 2. One sentence connecting your own background: the one experience from
    Step 2, stated concretely (real numbers, real company name).
 3. A genuine, specific reason you want to work at the target company -
@@ -80,9 +90,8 @@ any one of them dominate the paragraph or crowd the others out:
    itself, use the second option rather than risk stating something
    inaccurate - never fall back to vague praise instead.
 
-Target 60-90 words total - shorter than it might feel natural to write.
-Each of the three points above is one clause or one short sentence, not a
-paragraph of its own.
+Target 90-100 words total. Each of the three points above is one clause
+or one short sentence, not a paragraph of its own.
 
 **Rules:**
 - Sound like a specific real person wrote this about this specific person -
@@ -115,7 +124,7 @@ output.**
 
 ```
 Experience used: <# and title> - because <the overlap>
-Former employee confirmed: <role> at <target company>, <dates found>
+Former employee confirmed: <role and dates if known, otherwise "role/dates not shown"> at <target company>
 Recipient: <their first name>
 
 Middle:
