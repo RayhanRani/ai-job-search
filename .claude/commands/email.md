@@ -15,10 +15,12 @@ It's built specifically for the "you used to work somewhere I really want
 to work, would you help me get in" ask, which only makes sense once
 someone has already left - it is not for current employees or executives.
 
-The subject line, greeting, opening self-introduction, and sign-off are
-all fixed and assembled separately by the calling tool for consistency
-across every email - **do not draft any of those, and do not print them in
-your output.** You only draft the middle section (Step 3 below).
+The subject line, greeting, opening intro paragraph, closing paragraph
+(the connection ask, with the target company's name substituted in), and
+sign-off are all fixed and assembled separately by the calling tool for
+consistency across every email - **do not draft any of those, and do not
+print them in your output.** You only draft the one body paragraph in
+between (Step 4 below).
 
 ## Step 1: Identify the recipient
 
@@ -38,29 +40,29 @@ Parse their profile for confirmation they used to work at the target
 company (not currently there) - find the specific role and dates. If the
 profile doesn't clearly show this (e.g. they're actually still there, or
 the target company doesn't appear at all), say so plainly in the output
-instead of drafting a misleading middle section.
+instead of drafting a misleading body paragraph.
 
 Also note anything else genuine and specific about their time there or
 their path since - what they worked on, what they moved on to, any project
 or team mentioned.
 
-## Step 4: Draft the middle section
+## Step 4: Draft the body paragraph
 
-**Target 100-140 words across exactly two paragraphs, separated by a
-blank line.** This is only the middle of the email - it gets placed
-between a fixed opening (name, school, a personal story) and a fixed
-closing ("Best, Rayhan") that you don't write. Every sentence should carry
-real information; don't pad.
+**Exactly one paragraph.** This is the only part of the email you write -
+it sits between a fixed intro paragraph (name, school, a personal story)
+and a fixed closing paragraph (the connection ask, naming the target
+company, plus the resume/GitHub mention) that are both assembled
+separately; you don't draft either of those, and this paragraph should not
+duplicate anything from them.
 
-**Paragraph 1 - them, and the connection:**
+Weave these three things together in roughly equal proportion - don't let
+any one of them dominate the paragraph or crowd the others out:
 1. Something specific and genuine about **their** time at the target
    company or their path since - proof you actually read their background,
    not a form letter.
 2. One sentence connecting your own background: the one experience from
    Step 2, stated concretely (real numbers, real company name).
-
-**Paragraph 2 - why this company, and the ask:**
-3. A genuine, **specific** reason you want to work at the target company -
+3. A genuine, specific reason you want to work at the target company -
    never generic enthusiasm ("genuinely love," "dream company," "amazing
    place to work," "incredible opportunity") without something real behind
    it. Ground it in one of:
@@ -74,19 +76,18 @@ real information; don't pad.
    If you're not confident about a specific claim regarding the company
    itself, use the second option rather than risk stating something
    inaccurate - never fall back to vague praise instead.
-4. Ask if they'd be open to connecting in whatever way works best for them
-   - a call, or just continuing over email - and if they know anyone there
-   they'd be willing to introduce you to, that it would mean a lot. Genuine
-   and low-pressure, not a demand.
-5. End with, verbatim: "I've attached my resume and linked my Github
-   here." - plain text, no invented URL or file reference. The user
-   attaches the file and adds the hyperlink themselves afterward.
+
+Target 90-130 words total.
 
 **Rules:**
 - Sound like a specific real person wrote this about this specific person -
   never a template with the name swapped in for the parts you control. If
-  the middle section would read identically for a different recipient with
-  the details changed, rewrite it.
+  this paragraph would read identically for a different recipient with the
+  details changed, rewrite it.
+- Plain text only. No markdown of any kind - no `**bold**`, no asterisks,
+  no bullet characters, no headers. This gets displayed and copied as-is,
+  not rendered, so any markdown syntax shows up as literal stray
+  characters in the final email.
 - No em-dashes. Use commas or periods.
 - No cliches: cut "passionate about," "would love to connect," "great to
   e-meet," "leverage my skills," "reaching out because," "I hope this email
@@ -103,7 +104,9 @@ real information; don't pad.
 Print which experience you picked and why, then confirmation of the
 former-employee relationship you found (or, if you couldn't confirm one,
 say so instead of the line below), then the recipient's first name, then
-the middle section only.
+the body paragraph only. **Plain text throughout, including these
+reasoning lines - no `**bold**` or other markdown anywhere in the
+output.**
 
 ```
 Experience used: <# and title> - because <the overlap>
@@ -111,5 +114,5 @@ Former employee confirmed: <role> at <target company>, <dates found>
 Recipient: <their first name>
 
 Middle:
-<the middle section from Step 4>
+<the body paragraph from Step 4>
 ```
